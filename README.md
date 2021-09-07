@@ -1,5 +1,9 @@
 # Ocr_Tool_Api
-A simple ocr tool api that extract the text content from images using FastApi and tesseract ( Tesseract is an open source text recognition (OCR) Engine.It can be used directly, or (for programmers) using an API to extract printed text from images. It supports a wide variety of languages.Tesseract is compatible with many programming languages and frameworks through wrappers.)
+A simple ocr tool api that extract the text content from images using
+
+1.FastApi
+
+2.Tesseract ( Tesseract is an open source text recognition (OCR) Engine.It can be used directly, or (for programmers) using an API to extract printed text from images. It supports a wide variety of languages.Tesseract is compatible with many programming languages and frameworks through wrappers.)
 
 # Setup 
 
