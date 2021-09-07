@@ -5,7 +5,7 @@ A simple ocr tool api using python FastAPI and tesseract that extract the text c
 
 1.Create Python virtual environment:
 
-pip install pipenv
+pip install pipenv (if not install)
 
 cd to your project directory
 
