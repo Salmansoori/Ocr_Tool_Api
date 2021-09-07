@@ -11,7 +11,7 @@ cd to your project directory
 
 pipenv shell
 
-2. then install tesseract
+2.then install tesseract
 
 On Windows
 
@@ -42,6 +42,6 @@ pip install -r requirements.txt
 
 cd api
 
-now run 
+now run following command
 
 uvicorn main:app --reload
