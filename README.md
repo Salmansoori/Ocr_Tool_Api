@@ -15,9 +15,11 @@ sudo apt-get install tesseract-ocr tesseract-ocr-dev
 sudo apt-get install libtesseract-dev
 
 On Mac
+
 brew install tesseract
 
 On Windows
+
 download file from https://github.com/UB-Mannheim/tesseract/wiki then add 
 
 pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe' to your ocr script.
@@ -29,5 +31,7 @@ pip install -r requirements.txt
 # Starting a local server:
 
 cd api
+
 now run 
+
 uvicorn main:app --reload
