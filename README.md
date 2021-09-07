@@ -14,7 +14,7 @@ On Mac
 brew install tesseract
 
 On Windows
-download file from https://github.com/UB-Mannheim/tesser.... then add 
+download file from https://github.com/UB-Mannheim/tesseract/wiki then add 
 pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe' to your ocr script.
 
 Then you should install the python package using pip:
