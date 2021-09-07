@@ -2,7 +2,22 @@
 A simple ocr tool api using python FastAPI and tesseract that extract the text content from images.
 
 # Setup 
-First install tesseract
+
+1.Create Python virtual environment:
+
+pip install pipenv
+
+cd to your project directory
+
+pipenv shell
+
+2. then install tesseract
+
+On Windows
+
+download file from https://github.com/UB-Mannheim/tesseract/wiki then add 
+
+pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe' to your ocr script.
 
 On Linux
 
@@ -18,15 +33,10 @@ On Mac
 
 brew install tesseract
 
-On Windows
-
-download file from https://github.com/UB-Mannheim/tesseract/wiki then add 
-
-pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe' to your ocr script.
-
-Then you should install the python package using pip:
+3.Then you should install the python package using pip:
 
 pip install -r requirements.txt
+
 
 # Starting a local server:
 
